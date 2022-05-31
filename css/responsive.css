@@ -1,0 +1,97 @@
+@media(min-width:992px){
+    .searchform{
+        width: 300px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .about .about-des p{
+        padding-right: 20px;
+    }
+    .about .experience span{
+        font-size: 42px;
+    }
+    .about .about-right-sec{
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .about .about-right-sec{
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .about .about-des p{
+        padding-right: 0;
+    }
+    .about .experience span{
+        font-size: 45px; 
+    }
+    .about .about-right-sec{
+        padding-top: 50px;
+    }
+}
+@media(max-width:1024px){
+    .hero{
+        background-attachment:fixed; 
+    }
+}
+@media(max-width:991px){
+    .social-media{
+       margin: 0 auto;
+    }
+    .main-navbar-light{
+        position: relative;
+        background: #000 !important;
+        top: 0;
+        padding: 10px 15px;
+    }
+    .main-navbar-light .navbar-nav{
+        padding-bottom: 10px;
+    }
+    .main-navbar-light .navbar-nav > .nav-item > .nav-link{
+        padding: .7rem 0;
+        color: rgba(255,255,255,0.7)
+    }
+    .main-navbar-light .navbar-nav > .nav-item > .nav-link:hover{
+        color: #fff;
+    }
+}
+@media(max-width:767px){
+    .social-media{
+        margin: 20px;
+    }
+    .main-navbar-light .navbar-nav > .nav-item > .nav-link{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+    }
+    .hero{
+        height: auto;
+    }
+    .hero h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .hero h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media(max-width:567px){
+    .about .about-des p{
+        padding-right: 0;
+    }
+    .about .experience span{
+        font-size: 45px
+    }
+    .about .about-right-sec{
+        padding-top: 50px;
+    }
+    .about .about-right-sec .img-box{
+        left: 0;
+        width: 128px;
+        height: 145px;
+        padding: 8px 10px;
+    }
+    .about-des{
+        margin-bottom: 35px;
+    }
+}
